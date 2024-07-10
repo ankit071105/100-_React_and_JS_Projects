@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0, 191, 255);
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    padding: 20px;
+    margin: 30px;
+}
+
+.location {
+    font-size: 1.5em;
+    font-weight: italic;
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 20px;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    color: rgb(203, 248, 237);
+    cursor: pointer;
+}
